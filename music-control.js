@@ -169,7 +169,7 @@ let audioControlPoster = document.getElementById('poster-audio-controller');
 let audioControlContent = document.getElementById('audioControllerTittle');
 Array.from(document.getElementsByClassName('songList')).forEach((el) => {
     el.addEventListener('click', (em) => {
-        songId = em.target.id;
+        songId = em.currentTarget.id;
         songId++;
         music.src = `resource/audio/song-${songId}.mp3`;
         music.play();
