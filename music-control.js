@@ -116,31 +116,31 @@ let songs = [
         ArtistName: 'bear bear & friends',
         songName_q: `<p class="upper-line ml">Glow Night <br><span class="lower-line">bear bear & friends</span></p>`,
         poster: 'resource/eng-img-10.jpeg'
+    },
+    {
+        id: '20',
+        ArtistName: 'Gurru Randhawa',
+        songName_q: `<p class="upper-line ">Morni<br><span class="lower-line">Aug 23 2024</span></p>`,
+        poster: 'resource/new-release-1.jpeg'
+    },
+    {
+        id: '21',
+        ArtistName: 'Honey singh',
+        songName_q: `  <p class="upper-line ml">Blue Eyes<br><span class="lower-line"> Aug 23 2021</span></p>`,
+        poster: 'resource/new-release-2.jpeg'
+    },
+    {
+        id: '22',
+        ArtistName: 'Meharbaan',
+        songName_q: `<p class="upper-line ml">Meharbaan <br><span class="lower-line">Aug 22 2022</span></p>`,
+        poster: 'resource/new-release-3.jpeg'
+    },
+    {
+        id: '23',
+        ArtistName: 'Harnoor',
+        songName_q: `<p class="upper-line ml">Taare<br><span class="lower-line">Sep 12 2023</span></p>`,
+        poster: 'resource/new-release-4.jpeg'
     }
-    // {
-    //     id: '20',
-    //     ArtistName: 'Gurru Randhawa',
-    //     songName_q: `<p class="upper-line ">Morni<br><span class="lower-line">Aug 23 2024</span></p>`,
-    //     poster: 'resource/new-release-1.jpeg'
-    // },
-    // {
-    //     id: '21',
-    //     ArtistName: 'Honey singh',
-    //     songName_q: `  <p class="upper-line ml">Blue Eyes<br><span class="lower-line"> Aug 23 2021</span></p>`,
-    //     poster: 'resource/new-release-2.jpeg'
-    // },
-    // {
-    //     id: '22',
-    //     ArtistName: 'Meharbaan',
-    //     songName_q: `<p class="upper-line ml">Meharbaan <br><span class="lower-line">Aug 22 2022</span></p>`,
-    //     poster: 'resource/new-release-3.jpeg'
-    // },
-    // {
-    //     id: '23',
-    //     ArtistName: 'Harnoor',
-    //     songName_q: `<p class="upper-line ml">Taare<br><span class="lower-line">Sep 12 2023</span></p>`,
-    //     poster: 'resource/new-release-4.jpeg'
-    // }
 ]
 
 Array.from(document.getElementsByClassName('song-horizontal')).forEach((elm, i) => {
@@ -181,7 +181,7 @@ Array.from(document.getElementsByClassName('songList')).forEach((el) => {
         //for new release song section
         else if (songId >= 20 && songId <= 23) {
             music.src = `resource/audio/new-song-${songId}.mp3`;
-            // audioControlPoster.src = `resource/new-release-${songId - 19}.jpeg`
+            audioControlPoster.src = `resource/new-release-${songId - 19}.jpeg`
             music.play();
         }
         else {
@@ -190,22 +190,19 @@ Array.from(document.getElementsByClassName('songList')).forEach((el) => {
         audioPlay.classList.remove('fa-circle-play');
         audioPlay.classList.add('fa-circle-pause');
 
-        // let songcontent = songs.filter((els) => {
+        // let songcontent = songs.filter(els => {
         //     return els.id == songId;
         // });
         // songcontent.forEach(elss => {
         //     let { songName_q } = elss;
         //     audioControlContent.outerHTML = songName_q;
         // });
-        for (let i = 1; i <= songs.length; i++) {
+        for (let i = 1; i <= songs.length-4; i++) {
           if(songId==songs[i].id)
-            console.log(songs[i].songName_q)
             audioControlContent.outerHTML = songs[i].songName_q;
         }
     });
 });
-// new release button control
-
 
 //time on audio controller
 let curTime = document.getElementById('currentStart');

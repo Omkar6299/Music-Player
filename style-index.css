@@ -429,7 +429,7 @@ html {
 .new-releases-img-container:hover {
     opacity: 0.7;
 }
-.pause-btn{
+/* .pause-btn{
     display: none;
     position: absolute;
     top: 39%;
@@ -440,8 +440,8 @@ html {
     position: absolute;
     top: 39%;
     left: 4%;
-}
-.new-releases-img-container:hover .pause-btn {
+} */
+/* .new-releases-img-container:hover .pause-btn {
     display: block;
 }
 #play1:target {
@@ -458,7 +458,7 @@ html {
 
 #play4:target {
     display: block;
-}
+} */
 .release-icon-container {
     position: relative;
 }
@@ -568,8 +568,8 @@ html {
     top: 40%;
     left: 40%;
 }
-.item a:hover .pause-btn2{
-    display: inline-block;
+.artist:hover .pause-btn2{
+    display: block;
 }
 /* stations */
 .station {
@@ -861,7 +861,7 @@ html {
     height: 100%;
     background-color: var(--seek-color);
     margin: 0 15px 0 10px;
-    transition: 1s linear;
+    transition: .1s linear;
 }
 
 .audio-controller .vol .dot {
@@ -872,7 +872,7 @@ html {
     top: -1.5px;
     left: 100%;
     background-color: var(--seek-color);
-    transition: 1s linear;
+    transition: .1s linear;
 }
 
 .audio-controller .vol .dot::before {
