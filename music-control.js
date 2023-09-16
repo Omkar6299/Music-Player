@@ -170,7 +170,11 @@ let audioControlContent = document.getElementById('audioControllerTittle');
 Array.from(document.getElementsByClassName('songList')).forEach((el) => {
     el.addEventListener('click', (em) => {
         songId = em.currentTarget.id;
+<<<<<<< HEAD
         //songId++;
+=======
+        songId++;
+>>>>>>> e7eb9700c75632fd7e45ed9a2e5722ac29fddc90
         music.src = `resource/audio/song-${songId}.mp3`;
         music.play();
         //for hindi song
