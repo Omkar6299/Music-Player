@@ -5,140 +5,140 @@ let songs = [
     {
         id: '1',
         ArtistName: 'Gadar-2',
-        songName_q: `<p class="upper-line ">Gaddar-2<br><span class="lower-line">Mithoon, Uttam Singh</span></p>`,
+        songName_q: `Gaddar-2<br><span class="lower-line">Mithoon, Uttam Singh</span>`,
         poster: 'resource/hindi-img-1.jpeg'
     },
     {
         id: '2',
         ArtistName: 'Alvida',
-        songName_q: `  <p class="upper-line ml">Alvida<br><span class="lower-line"> Nikhil D'Souza</span></p>`,
+        songName_q: `  Alvida<br><span class="lower-line"> Nikhil D'Souza</span>`,
         poster: 'resource/hindi-img-2.jpeg'
     },
     {
         id: '3',
         ArtistName: 'Kho Gaye',
-        songName_q: `<p class="upper-line ml">Kho Gaye <br><span class="lower-line">Taaruk Raina</span></p>`,
+        songName_q: `Kho Gaye <br><span class="lower-line">Taaruk Raina</span>`,
         poster: 'resource/hindi-img-3.jpeg'
     },
     {
         id: '4',
         ArtistName: 'Pahali Dafa',
-        songName_q: `<p class="upper-line ml">Pahali Dafa<br><span class="lower-line">Atif Aslam</span></p>`,
+        songName_q: `Pahali Dafa<br><span class="lower-line">Atif Aslam</span>`,
         poster: 'resource/hindi-img-4.jpeg'
     },
     {
         id: '5',
         ArtistName: 'Pathan',
-        songName_q: `<p class="upper-line ml">Pathan<br><span class="lower-line">Arijit Singh, Sukriti Kakar
-        </span></p>`,
+        songName_q: `Pathan<br><span class="lower-line">Arijit Singh, Sukriti Kakar
+        </span>`,
         poster: 'resource/hindi-img-5.jpeg'
     },
     {
         id: '6',
         ArtistName: 'Meri Galati',
-        songName_q: ` <p class="upper-line ml">Meri Galati<br><span class="lower-line">Ambili Menon</span></p>`,
+        songName_q: ` Meri Galati<br><span class="lower-line">Ambili Menon</span>`,
         poster: 'resource/hindi-img-6.jpeg'
     },
     {
         id: '7',
         ArtistName: 'marjawa',
-        songName_q: ` <p class="upper-line ml">Marjjawa <br><span class="lower-line">Arijit Singh</span></p>`,
+        songName_q: ` Marjjawa <br><span class="lower-line">Arijit Singh</span>`,
         poster: 'resource/hindi-img-7.jpeg'
     },
     {
         id: '8',
         ArtistName: 'Bhulla Dunga',
-        songName_q: ` <p class="upper-line ml">Bhula Dunga <br><span class="lower-line">Naushad Khan</span></p>`,
+        songName_q: ` Bhula Dunga <br><span class="lower-line">Naushad Khan</span>`,
         poster: 'resource/hindi-img-8.jpeg'
     },
     {
         id: '9',
         ArtistName: 'Kabil',
-        songName_q: `<p class="upper-line ml">Kabil <br><span class="lower-line"> Jubin Nautiyal</span></p>`,
+        songName_q: `Kabil <br><span class="lower-line"> Jubin Nautiyal</span>`,
         poster: 'resource/hindi-img-9.jpeg'
     },
     {
         id: '10',
         ArtistName: 'Tory Lanez ',
-        songName_q: ` <p class="upper-line ml">KLOK <br><span class="lower-line">Tory Lanez </span></p>`,
+        songName_q: ` KLOK <br><span class="lower-line">Tory Lanez </span>`,
         poster: 'resource/eng-img-1.jpeg'
     },
     {
         id: '11',
         ArtistName: 'One Direction',
-        songName_q: `<p class="upper-line ml">Party Night<br><span class="lower-line">One Direction</span></p>`,
+        songName_q: `Party Night<br><span class="lower-line">One Direction</span>`,
         poster: 'resource/eng-img-2.jpeg'
     },
     {
         id: '12',
         ArtistName: 'Katy party',
-        songName_q: `<p class="upper-line ml">you<br><span class="lower-line">Katy party </span></p>`,
+        songName_q: `you<br><span class="lower-line">Katy party </span>`,
         poster: 'resource/eng-img-3.jpeg'
     },
     {
         id: '13',
         ArtistName: 'Camila Cabillo',
-        songName_q: `<p class="upper-line ml">Havana <br><span class="lower-line">Camila Cabillo</span></p>`,
+        songName_q: `Havana <br><span class="lower-line">Camila Cabillo</span>`,
         poster: 'resource/eng-img-4.jpeg'
     },
     {
         id: '14',
         ArtistName: 'Saulja Boys',
-        songName_q: `<p class="upper-line ml">Rockstar<br><span class="lower-line">Saulja Boys</span></p>`,
+        songName_q: `Rockstar<br><span class="lower-line">Saulja Boys</span>`,
         poster: 'resource/eng-img-5.jpeg'
     },
     {
         id: '15',
         ArtistName: 'BADSHAH',
-        songName_q: `<p class="upper-line ml">Toxic<br><span class="lower-line">BADSHAH</span></p>`,
+        songName_q: `Toxic<br><span class="lower-line">BADSHAH</span>`,
         poster: 'resource/eng-img-6.jpeg'
     },
     {
         id: '16',
         ArtistName: 'Nick Caves',
-        songName_q: `<p class="upper-line ml">Red Right Hand <br><span class="lower-line">Nick Caves</span></p>`,
+        songName_q: `Red Right Hand <br><span class="lower-line">Nick Caves</span>`,
         poster: 'resource/eng-img-7.jpeg'
     },
     {
         id: '17',
         ArtistName: 'Param singh',
-        songName_q: `<p class="upper-line ml">Daru Badnam <br><span class="lower-line">Param singh</span></p>`,
+        songName_q: `Daru Badnam <br><span class="lower-line">Param singh</span>`,
         poster: 'resource/eng-img-8.jpeg'
     },
     {
         id: '18',
         ArtistName: 'Roar',
-        songName_q: ` <p class="upper-line ml">Roar <br><span class="lower-line">Katy Perry</span></p>`,
+        songName_q: ` Roar <br><span class="lower-line">Katy Perry</span>`,
         poster: 'resource/eng-img-9.jpeg'
     },
     {
         id: '19',
         ArtistName: 'bear bear & friends',
-        songName_q: `<p class="upper-line ml">Glow Night <br><span class="lower-line">bear bear & friends</span></p>`,
+        songName_q: `Glow Night <br><span class="lower-line">bear bear & friends</span>`,
         poster: 'resource/eng-img-10.jpeg'
     },
     {
         id: '20',
         ArtistName: 'Gurru Randhawa',
-        songName_q: `<p class="upper-line ">Morni<br><span class="lower-line">Aug 23 2024</span></p>`,
+        songName_q:`Morni<br><span class="lower-line">Gurru Randhawa</span>`,
         poster: 'resource/new-release-1.jpeg'
     },
     {
         id: '21',
         ArtistName: 'Honey singh',
-        songName_q: `  <p class="upper-line ml">Blue Eyes<br><span class="lower-line"> Aug 23 2021</span></p>`,
+        songName_q: `  Blue Eyes<br><span class="lower-line"> Honey singh</span>`,
         poster: 'resource/new-release-2.jpeg'
     },
     {
         id: '22',
         ArtistName: 'Meharbaan',
-        songName_q: `<p class="upper-line ml">Meharbaan <br><span class="lower-line">Aug 22 2022</span></p>`,
+        songName_q: `Meharbaan <br><span class="lower-line">Meharbaan</span>`,
         poster: 'resource/new-release-3.jpeg'
     },
     {
         id: '23',
         ArtistName: 'Harnoor',
-        songName_q: `<p class="upper-line ml">Taare<br><span class="lower-line">Sep 12 2023</span></p>`,
+        songName_q: `Taare<br><span class="lower-line">Harnoor</span>`,
         poster: 'resource/new-release-4.jpeg'
     }
 ]
@@ -164,17 +164,21 @@ audioPlay.addEventListener('click', () => {
 
 
 //Audio song changer Index by uniqe id
-let songId = 0;
+let songId;
 let audioControlPoster = document.getElementById('poster-audio-controller');
-let audioControlContent = document.getElementById('audioControllerTittle');
+var audioControlContent = document.getElementById('audioControllerTittle');
 Array.from(document.getElementsByClassName('songList')).forEach((el) => {
     el.addEventListener('click', (em) => {
         songId = em.currentTarget.id;
-<<<<<<< HEAD
-        //songId++;
-=======
-        songId++;
->>>>>>> e7eb9700c75632fd7e45ed9a2e5722ac29fddc90
+               //content of masterPlay
+               for (let index in songs) {
+                if(songId!=songs[index].id)
+                   continue;
+                else{
+                    audioControlContent.innerHTML = songs[index].songName_q;
+                    break;
+                }
+              }
         music.src = `resource/audio/song-${songId}.mp3`;
         music.play();
         //for hindi song
@@ -192,18 +196,6 @@ Array.from(document.getElementsByClassName('songList')).forEach((el) => {
         }
         audioPlay.classList.remove('fa-circle-play');
         audioPlay.classList.add('fa-circle-pause');
-
-        // let songcontent = songs.filter(els => {
-        //     return els.id == songId;
-        // });
-        // songcontent.forEach(elss => {
-        //     let { songName_q } = elss;
-        //     audioControlContent.outerHTML = songName_q;
-        // });
-        for (let i = 1; i <= songs.length-4; i++) {
-          if(songId==songs[i].id)
-            audioControlContent.outerHTML = songs[i].songName_q;
-        }
     });
 });
 
