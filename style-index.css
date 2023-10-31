@@ -10,7 +10,8 @@
     --controller-bg: #282828;
     --seek-color: #37E78B;
     --list-box: #1A1E33;
-    --list-box-hover: #202439
+    --list-box-hover: #202439;
+    --heartIconActiveColor:red;
 }
 
 body,
@@ -24,6 +25,7 @@ body {
     background: var(--background);
     box-sizing: border-box;
     position: relative;
+    font-family: 'Arvo', serif;
     /* overflow-y: hidden; */
     /* background: linear-gradient(90deg, rgba(20, 42, 100, 0.902) 100%, rgba(0,212,255,1) 100%); */
 }
@@ -429,36 +431,12 @@ html {
 .new-releases-img-container:hover {
     opacity: 0.7;
 }
-/* .pause-btn{
+.pause-btn{
     display: none;
     position: absolute;
     top: 39%;
-    left: 4%;
+    left: 39%;
 }
-.play-btn {
-    display: none;
-    position: absolute;
-    top: 39%;
-    left: 4%;
-} */
-/* .new-releases-img-container:hover .pause-btn {
-    display: block;
-}
-#play1:target {
-    display: block;
-}
-
-#play2:target {
-    display: block;
-}
-
-#play3:target {
-    display: block;
-}
-
-#play4:target {
-    display: block;
-} */
 .release-icon-container {
     position: relative;
 }
@@ -561,15 +539,11 @@ html {
 .item a:hover {
     opacity: .7;
 }
-
 .pause-btn2 {
     display: none;
     position: absolute;
     top: 40%;
     left: 40%;
-}
-.artist:hover .pause-btn2{
-    display: block;
 }
 /* stations */
 .station {
@@ -720,7 +694,7 @@ html {
     height: 40px;
 }
 
-.audio-controller p {
+.content{
     width: 130px;
     margin-left: 15px;
     color: var(--white);
@@ -729,7 +703,10 @@ html {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
+#audioControllerTittle{
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
 .audio-controller .left-icon {
     margin: -20px 0 0 0;
 }
@@ -920,3 +897,8 @@ html {
         width: 100%;
     }
   }
+
+  /* for favorite icon when active */
+  .heartIconActive{
+    color: var(--heartIconActiveColor);
+}

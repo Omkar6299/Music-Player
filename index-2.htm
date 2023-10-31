@@ -42,15 +42,15 @@
             <div id="left-container">
                 <div class="main-poster">
                     <div class="poster-img" id="poster-img">
-                        <img src="resource/eng-img-4.jpeg" alt="img">
+                        <img src="resource/eng-img-4.jpeg" alt="img" id="posterImage">
                     </div>
                     <div class="about-poster">
                         <div class="poster-header">
-                            <h1 class="tittle">Havana</h1>
+                            <h1 class="tittle" id="posterTittle">Havana</h1>
                             <p class="sub-tittle">978 Followers</p>
                         </div>
                         <div class="poster-content">
-                            <p class="sub-tittle">Camila Cabello</p>
+                            <p class="sub-tittle" id="posterArtistName">Camila Cabello</p>
                             <p class="description">
                                 Havana is a song recorded by Cuban-American singer Camila Cabello featuring fellow
                                 American rapper Young Thug.[1] It was released on August 3, 2017, along with "OMG", from
@@ -506,8 +506,10 @@
     <div class="audio-controller" id="master-player">
         <div class="img-poster">
             <img src="resource/eng-img-4.jpeg" alt="" id="poster-audio-controller">
-            <p class="upper-line " id="audioControllerTittle">Blue Eyes<br><span class="lower-line">Honey singh</span>
-            </p>
+            <div class="content">
+                <p class="upper-line " id="audioControllerTittle">Havana</p>
+                <span class="lower-line " id="audioControllerArtistName">Camila Cabillo</span>
+            </div>
             <div class="left-icon  icon">
                 <i class="fa-sharp fa-regular fa-heart"></i>
                 <i class="fa-sharp fa-solid fa-ban"></i>
@@ -515,11 +517,11 @@
         </div>
         <div class="center-part">
             <div class="icon center-icon">
-                <i class="fa-solid fa-shuffle"></i>
-                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-shuffle" id="shuffle"></i>
+                <i class="fa-solid fa-backward-step" id="prev"></i>
                 <i class="fa-regular fa-circle-play fa-2xl" id="audio-play"></i>
-                <i class="fa-solid fa-forward-step"></i>
-                <i class="fa-solid fa-repeat"></i>
+                <i class="fa-solid fa-forward-step" id="next"></i>
+                <i class="fa-solid fa-repeat" id="repeat"></i>
             </div>
             <div class="seek-container">
                 <span id="currentStart">0.00</span>
