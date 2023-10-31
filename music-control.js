@@ -1,204 +1,268 @@
-// console.log('hii iam omkar');
-// alert('test the code');
+
 let music = new Audio('resource/audio/song-13.mp3');
 let songs = [
     {
         id: '1',
-        ArtistName: 'Gadar-2',
-        songName_q: `Gaddar-2<br><span class="lower-line">Mithoon, Uttam Singh</span>`,
+        ArtistName: 'Mithoon, Uttam Singh',
+        tittle: `Gaddar-2`,
         poster: 'resource/hindi-img-1.jpeg'
     },
     {
         id: '2',
-        ArtistName: 'Alvida',
-        songName_q: `  Alvida<br><span class="lower-line"> Nikhil D'Souza</span>`,
+        ArtistName: `Nikhil D'Souza`,
+        tittle: `  Alvida`,
         poster: 'resource/hindi-img-2.jpeg'
     },
     {
         id: '3',
-        ArtistName: 'Kho Gaye',
-        songName_q: `Kho Gaye <br><span class="lower-line">Taaruk Raina</span>`,
+        ArtistName: 'Taaruk Raina',
+        tittle: `Kho Gaye`,
         poster: 'resource/hindi-img-3.jpeg'
     },
     {
         id: '4',
-        ArtistName: 'Pahali Dafa',
-        songName_q: `Pahali Dafa<br><span class="lower-line">Atif Aslam</span>`,
+        ArtistName: 'Atif Aslam',
+        tittle: `Pahali Dafa`,
         poster: 'resource/hindi-img-4.jpeg'
     },
     {
         id: '5',
-        ArtistName: 'Pathan',
-        songName_q: `Pathan<br><span class="lower-line">Arijit Singh, Sukriti Kakar
-        </span>`,
+        ArtistName: 'Arijit Singh, Sukriti Kakar',
+        tittle: `Pathan`,
         poster: 'resource/hindi-img-5.jpeg'
     },
     {
         id: '6',
-        ArtistName: 'Meri Galati',
-        songName_q: ` Meri Galati<br><span class="lower-line">Ambili Menon</span>`,
+        ArtistName: 'Ambili Menon',
+        tittle: ` Meri Galati`,
         poster: 'resource/hindi-img-6.jpeg'
     },
     {
         id: '7',
-        ArtistName: 'marjawa',
-        songName_q: ` Marjjawa <br><span class="lower-line">Arijit Singh</span>`,
+        ArtistName: 'Arijit Singh',
+        tittle: ` Marjjawa`,
         poster: 'resource/hindi-img-7.jpeg'
     },
     {
         id: '8',
-        ArtistName: 'Bhulla Dunga',
-        songName_q: ` Bhula Dunga <br><span class="lower-line">Naushad Khan</span>`,
+        ArtistName: 'Naushad Khan',
+        tittle: ` Bhula Dunga`,
         poster: 'resource/hindi-img-8.jpeg'
     },
     {
         id: '9',
-        ArtistName: 'Kabil',
-        songName_q: `Kabil <br><span class="lower-line"> Jubin Nautiyal</span>`,
+        ArtistName: ' Jubin Nautiyal',
+        tittle: `Kabil`,
         poster: 'resource/hindi-img-9.jpeg'
     },
     {
         id: '10',
         ArtistName: 'Tory Lanez ',
-        songName_q: ` KLOK <br><span class="lower-line">Tory Lanez </span>`,
+        tittle: ` KLOK`,
         poster: 'resource/eng-img-1.jpeg'
     },
     {
         id: '11',
         ArtistName: 'One Direction',
-        songName_q: `Party Night<br><span class="lower-line">One Direction</span>`,
+        tittle: `Party Night`,
         poster: 'resource/eng-img-2.jpeg'
     },
     {
         id: '12',
         ArtistName: 'Katy party',
-        songName_q: `you<br><span class="lower-line">Katy party </span>`,
+        tittle: `you`,
         poster: 'resource/eng-img-3.jpeg'
     },
     {
         id: '13',
         ArtistName: 'Camila Cabillo',
-        songName_q: `Havana <br><span class="lower-line">Camila Cabillo</span>`,
+        tittle: `Havana`,
         poster: 'resource/eng-img-4.jpeg'
     },
     {
         id: '14',
         ArtistName: 'Saulja Boys',
-        songName_q: `Rockstar<br><span class="lower-line">Saulja Boys</span>`,
+        tittle: `Rockstar`,
         poster: 'resource/eng-img-5.jpeg'
     },
     {
         id: '15',
         ArtistName: 'BADSHAH',
-        songName_q: `Toxic<br><span class="lower-line">BADSHAH</span>`,
+        tittle: `Toxic`,
         poster: 'resource/eng-img-6.jpeg'
     },
     {
         id: '16',
         ArtistName: 'Nick Caves',
-        songName_q: `Red Right Hand <br><span class="lower-line">Nick Caves</span>`,
+        tittle: `Red Right Hand`,
         poster: 'resource/eng-img-7.jpeg'
     },
     {
         id: '17',
         ArtistName: 'Param singh',
-        songName_q: `Daru Badnam <br><span class="lower-line">Param singh</span>`,
+        tittle: `Daru Badnam`,
         poster: 'resource/eng-img-8.jpeg'
     },
     {
         id: '18',
-        ArtistName: 'Roar',
-        songName_q: ` Roar <br><span class="lower-line">Katy Perry</span>`,
+        ArtistName: 'Katy Perry',
+        tittle: ` Roar`,
         poster: 'resource/eng-img-9.jpeg'
     },
     {
         id: '19',
         ArtistName: 'bear bear & friends',
-        songName_q: `Glow Night <br><span class="lower-line">bear bear & friends</span>`,
+        tittle: `Glow Night`,
         poster: 'resource/eng-img-10.jpeg'
     },
     {
         id: '20',
         ArtistName: 'Gurru Randhawa',
-        songName_q:`Morni<br><span class="lower-line">Gurru Randhawa</span>`,
+        tittle: `Morni`,
         poster: 'resource/new-release-1.jpeg'
     },
     {
         id: '21',
         ArtistName: 'Honey singh',
-        songName_q: `  Blue Eyes<br><span class="lower-line"> Honey singh</span>`,
+        tittle: 'Blue Eyes',
         poster: 'resource/new-release-2.jpeg'
     },
     {
         id: '22',
         ArtistName: 'Meharbaan',
-        songName_q: `Meharbaan <br><span class="lower-line">Meharbaan</span>`,
+        tittle: `Meharbaan`,
         poster: 'resource/new-release-3.jpeg'
     },
     {
         id: '23',
         ArtistName: 'Harnoor',
-        songName_q: `Taare<br><span class="lower-line">Harnoor</span>`,
+        tittle: `Taare`,
         poster: 'resource/new-release-4.jpeg'
     }
 ]
 
 Array.from(document.getElementsByClassName('song-horizontal')).forEach((elm, i) => {
     elm.getElementsByTagName('img')[0].src = songs[i].poster;
-    elm.getElementsByTagName('p')[0].innerHTML = songs[i].ArtistName;
+    elm.getElementsByTagName('p')[0].innerHTML = songs[i].tittle;
     elm.getElementsByTagName('span')[0].innerHTML = "sep 23 2025";
 });
 //Audio Controller
-let audioPlay = document.getElementById('audio-play');
-audioPlay.addEventListener('click', () => {
-    if (music.paused || music.currentTime <= 0) {
-        music.play();
-        audioPlay.classList.remove('fa-circle-play');
-        audioPlay.classList.add('fa-circle-pause');
-    } else {
-        music.pause();
-        audioPlay.classList.add('fa-circle-play');
-        audioPlay.classList.remove('fa-circle-pause');
+function musicControl() {
+    let audioPlay = document.getElementById('audio-play');
+    audioPlay.addEventListener('click', () => {
+        if (music.paused || music.currentTime <= 0) {
+            music.play();
+            audioPlay.classList.remove('fa-circle-play');
+            audioPlay.classList.add('fa-circle-pause');
+        } else {
+            music.pause();
+            audioPlay.classList.add('fa-circle-play');
+            audioPlay.classList.remove('fa-circle-pause');
+        }
+    })
+    document.body.addEventListener('keydown', (e) => {
+        if (e.key == " " || e.code == "Space") {
+            console.log("space key pressed");
+            if (music.paused || music.currentTime <= 0) {
+                music.play();
+                audioPlay.classList.remove('fa-circle-play');
+                audioPlay.classList.add('fa-circle-pause');
+            } else {
+                music.pause();
+                audioPlay.classList.add('fa-circle-play');
+                audioPlay.classList.remove('fa-circle-pause');
+            }
+        }
+    })
+}
+musicControl();
+function playSongChangeMaster(songId) {
+    for (let index in songs) {
+        if (songId != songs[index].id)
+            continue;
+        else {
+            audioControlTittle.innerHTML = songs[index].tittle;
+            audioControlArtistName.innerHTML = songs[index].ArtistName;
+
+            break;
+        }
     }
-})
-
-
+    music.src = `resource/audio/song-${songId}.mp3`;
+    music.play();
+    //for hindi song
+    if (songId < 10) {
+        audioControlPoster.src = `resource/hindi-img-${songId}.jpeg`
+    }
+    //for new release song section
+    else if (songId >= 20 && songId <= 23) {
+        music.src = `resource/audio/new-song-${songId}.mp3`;
+        audioControlPoster.src = `resource/new-release-${songId - 19}.jpeg`
+        // music.play();
+    }
+    else {
+        audioControlPoster.src = `resource/eng-img-${songId - 9}.jpeg`
+    }
+    audioPlay.classList.remove('fa-circle-play');
+    audioPlay.classList.add('fa-circle-pause');
+}
+//Return id by Song Tittle
+function GiveId(songTittle) {
+    for (let obj of songs) {
+        if (obj.tittle == songTittle)
+            return obj.id;
+    }
+}
 //Audio song changer Index by uniqe id
 let songId;
 let audioControlPoster = document.getElementById('poster-audio-controller');
-var audioControlContent = document.getElementById('audioControllerTittle');
+var audioControlTittle = document.getElementById('audioControllerTittle');
+let audioControlArtistName = document.getElementById('audioControllerArtistName');
 Array.from(document.getElementsByClassName('songList')).forEach((el) => {
     el.addEventListener('click', (em) => {
         songId = em.currentTarget.id;
-        //content of masterPlay
-        for (let index in songs) {
-            if(songId!=songs[index].id)
-               continue;
-            else{
-                audioControlContent.innerHTML = songs[index].songName_q;
-                break;
-            }
-          }
-        //songId++;
-        music.src = `resource/audio/song-${songId}.mp3`;
-        music.play();
-        //for hindi song
-        if (songId < 10) {
-            audioControlPoster.src = `resource/hindi-img-${songId}.jpeg`
-        }
-        //for new release song section
-        else if (songId >= 20 && songId <= 23) {
-            music.src = `resource/audio/new-song-${songId}.mp3`;
-            audioControlPoster.src = `resource/new-release-${songId - 19}.jpeg`
-            music.play();
-        }
-        else {
-            audioControlPoster.src = `resource/eng-img-${songId - 9}.jpeg`
-        }
-        audioPlay.classList.remove('fa-circle-play');
-        audioPlay.classList.add('fa-circle-pause');
+        //content of masterPlay and song play by function
+        playSongChangeMaster(songId);
     });
 });
+//Change color of favorite icon on click
+Array.from(document.getElementsByClassName('queue-list-icon')).forEach((el) => {
+    el.addEventListener('click', (em) => {
+        let currIcon = em.currentTarget;
+        currIcon.classList.toggle('heartIconActive');
+        currIcon.classList.toggle('fa-solid');
+    });
+});
+//Song movement in master play
+function master() {
+    let Prev = document.getElementById('prev');
+    let Next = document.getElementById('next');
+    let Repeat = document.getElementById('prev');
+    const masterFavIcon = document.getElementById('masterFavIcon');
+    let currentSongTittle = document.getElementById('audioControllerTittle').innerText;
+    songId = GiveId(currentSongTittle);
+    //Change master fav icon on active
+    masterFavIcon.addEventListener('click', () => {
+        masterFavIcon.classList.toggle('heartIconActive');
+        masterFavIcon.classList.toggle('fa-solid');
+    })
+    //previous icon
+    Prev.addEventListener('click', () => {
+        songId--;
+        if (songId < 1)
+            songId = 23;
+        playSongChangeMaster(songId);
+    })
+    //next icon
+    Next.addEventListener('click', () => {
+        songId++;
+        if (songId > 23)
+            songId = 1;
+        playSongChangeMaster(songId);
+    })
+    //Repeat and not repeat icon.
+
+}
+master();
 
 //time on audio controller
 let curTime = document.getElementById('currentStart');
@@ -243,6 +307,41 @@ vol.addEventListener('change', () => {
     volDot.style.left = `${Volume}%`;
     music.volume = Volume / 100;
 })
+// Mouse Event
+function togglePlayBtn(className) {
+    Array.from(className).forEach((el) => {
+        el.addEventListener('mouseover', (em) => {
+            let currIcon = em.currentTarget;
+            let icon = currIcon.lastElementChild;
+            if (!icon.classList.contains('fa-pause')) {
+                icon.classList.add('fa-play');
+            }
+        });
+        el.addEventListener('click', (em) => {
+            let currIcon = em.currentTarget;
+            let icon = currIcon.lastElementChild;
+            if (icon.classList.contains('fa-play')) {
+                music.play();
+                icon.classList.remove('fa-play');
+                icon.classList.add('fa-pause');
+            }
+            else {
+                music.pause();
+                icon.classList.add('fa-play');
+                icon.classList.remove('fa-pause');
+            }
+        });
+        el.addEventListener('mouseleave', (em) => {
+            let currIcon = em.currentTarget;
+            let icon = currIcon.lastElementChild;
+            icon.classList.remove('fa-play');
+        });
+    });
+}
+// Mouse Event on Artist function invocation
+togglePlayBtn(document.getElementsByClassName('artist'));
+// Mouse Event on new releases song function invocation
+togglePlayBtn(document.getElementsByClassName('new-releases-img-container'));
 function Popup() {
     let x = document.getElementById("popup-box");
     if (x.style.display === "none") {
